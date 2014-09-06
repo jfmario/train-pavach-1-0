@@ -1,0 +1,7 @@
+# ignore the following directories
+audio/
+images/
+
+*~
+
+.gout*

@@ -1,0 +1,183 @@
+
+/* CONTENTS
+
+	BACK - Color (Background)
+	BRDR - Borders and Padding
+	COLR - Color (Text)
+	DBUG - Debug Section (comment out)
+	IMAG - Images
+	MISC - Clearfixes, etc
+	MRGN - Margins
+	ORGN - Organization
+	REAC - Reactions
+	TYPO - Typography
+*/
+
+/* BACK */
+
+body {
+	background-color: #dc8;
+}
+
+#main-box,
+#book {
+	background-color: #6b5;
+}
+
+/* BRDR */
+
+#banner {
+	padding-bottom: 5px;
+}
+
+#main-box,
+#book {
+	border: 10px ridge #13c;
+	border-radius: 20px;
+	border-top-width: 15px;
+	border-bottom-width: 5px;
+}
+
+.reftable {
+	border-spacing: 16px;
+}
+
+/* COLR */
+
+.feedback-good {
+	color: #00f;
+}
+
+.feedback-bad {
+	color: #f00;
+}
+
+/* DBUG */
+/*
+#content {
+	border: 1px solid #43d;
+}
+
+#banner {
+	border: 2px solid #1c8;
+}
+
+h1 {
+	border: 2px solid #995;
+}
+*/
+/* IMAG */
+
+#banner-icon {
+	height: 64px;
+	width: 64px;
+}
+
+.script-pic {
+	height: 64px;
+	width: 64px;
+}
+
+.script-pic-small {
+	height: 32px;
+	width: 32px;
+}
+
+.word-pic-small {
+	height: 32px;
+}
+
+/* MRGN */
+
+h1 {
+	margin-top: 0;
+}
+
+#main-box {
+	margin: 0 5px;
+}
+
+#left-column {
+	margin-right: 0;
+}
+
+#temp {
+	margin-left: 100px;
+}
+
+#right-column {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#d-form {
+	margin: auto;
+}
+
+#inner-wrapper {
+	margin: 32px;
+}
+
+.reftable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* MISC */
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* ORGN */
+
+#banner {
+	text-align: center;
+}
+
+#banner-icon {
+	vertical-align: middle;
+}
+
+h1 {
+	display: inline;
+	vertical-align: middle;
+}
+
+#display {
+	text-align: center;
+}
+
+#menu {
+	text-align: center;
+}
+
+#d-form {
+	text-align: left;
+	width: 32%;
+}
+
+.center {
+	text-align: center;
+}
+
+/* TYPO */
+
+* {
+	font-family: Charcoal, sans-serif;
+}
+
+h1 {
+	font-size: 225%;
+}
+
+.feedback-good,
+.feedback-bad {
+	font-weight: bold;
+}
+
+.operation {
+	font-size: 200%;
+}

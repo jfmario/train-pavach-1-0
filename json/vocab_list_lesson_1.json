@@ -1,0 +1,228 @@
+{
+	"lesson_1" : [
+		{
+			"code": "m-aa_n",
+			"meaning": "consonant that makes the 'm' sound"
+		},
+		{
+			"code": "n-a_m",
+			"meaning": "consonant that makes the 'n' sound"
+		},
+		{
+			"code": "ng-e_ng",
+			"meaning": "consonant that makes the 'ng' sound"
+		},
+		{
+			"code": "p-aa_b",
+			"meaning": "consonant that makes the 'p' sound"
+		},
+		{
+			"code": "b-a_p",
+			"meaning": "consonant that makes the 'b' sound"
+		},
+		{
+			"code": "t-aa_d",
+			"meaning": "consonant that makes the 't' sound"
+		},
+		{
+			"code": "d-a_t",
+			"meaning": "consonant that makes the 'd' sound"
+		},
+		{
+			"code": "k-aa_g",
+			"meaning": "consonant that makes the 'k' sound"
+		},
+		{
+			"code": "g-a_k",
+			"meaning": "consonant that makes the 'g' sound"
+		},
+		{
+			"code": "kk-aa_gg",
+			"meaning": "consonant that makes a guttural 'k' sound"
+		},
+		{
+			"code": "gg-a_kk",
+			"meaning": "consonant that makes a guttural 'g' sound"
+		},
+		{
+			"code": "s-aa_z",
+			"meaning": "consonant that makes the 's' sound"
+		},
+		{
+			"code": "z-a_s",
+			"meaning": "consonant that makes the 'z' sound"
+		},
+		{
+			"code": "sh-aa_zh",
+			"meaning": "consonant that makes the 'sh' sound"
+		},
+		{
+			"code": "zh-a_sh",
+			"meaning": "consonant that makes the 'zh' sound"
+		},
+		{
+			"code": "f-aa_v",
+			"meaning": "consonant that makes the 'f' sound"
+		},
+		{
+			"code": "v-a_f",
+			"meaning": "consonant that makes the 'v' sound"
+		},
+		{
+			"code": "th-aa_dh",
+			"meaning": "consonant that makes the 'th' sound"
+		},
+		{
+			"code": "dh-a_th",
+			"meaning": "consonant that makes the 'dh' sound"
+		},
+		{
+			"code": "kh-aa_gh",
+			"meaning": "consonant that makes the 'kh' sound"
+		},
+		{
+			"code": "gh-a_kh",
+			"meaning": "consonant that makes the 'gh' sound"
+		},
+		{
+			"code": "ch-aa_j",
+			"meaning": "consonant that makes the 'ch' sound"
+		},
+		{
+			"code": "j-a_ch",
+			"meaning": "consonant that makes the 'j' sound"
+		},
+		{
+			"code": "h-e_h",
+			"meaning": "consonant that makes a soft 'h' sound"
+		},
+		{
+			"code": "hh-aa_w",
+			"meaning": "consonant that makes a heavy 'h' sound"
+		},
+		{
+			"code": "w-a_hh",
+			"meaning": "consonant that makes the 'w' sound"
+		},
+		{
+			"code": "r-aa_l",
+			"meaning": "consonant that makes the 'r' sound"
+		},
+		{
+			"code": "rr-aa_y",
+			"meaning": "consonant that makes a rolled 'r' sound"
+		},
+		{
+			"code": "l-a_r",
+			"meaning": "consonant that makes the 'l' sound"
+		},
+		{
+			"code": "y-a_rr",
+			"meaning": "consonant that makes the 'y' sound"
+		},
+		{
+			"code": "ts-aa_dz",
+			"meaning": "consonant that makes the 'ts' sound"
+		},
+		{
+			"code": "dz-a_ts",
+			"meaning": "consonant that makes the 'dz' sound"
+		},
+		{
+			"code": "tsh-aa_dzh",
+			"meaning": "consonant that makes the 'tsh' sound"
+		},
+		{
+			"code": "dzh-a_tsh",
+			"meaning": "consonant that makes the 'dzh' sound"
+		},
+		{
+			"code": "tch-aa_dj",
+			"meaning": "consonant that makes the 'tch' sound"
+		},
+		{
+			"code": "dj-a_tch",
+			"meaning": "consonant that makes the 'dj' sound"
+		},
+		{
+			"code": "tl-aa_dr",
+			"meaning": "consonant that makes the 'tl' sound"
+		},
+		{
+			"code": "dr-a_tl",
+			"meaning": "consonant that makes the 'dr' sound"
+		},
+		{
+			"code": "o_mr",
+			"meaning": "consonant that makes the 'mr' sound"
+		},
+		{
+			"code": "o_nl",
+			"meaning": "consonant that makes the 'nl' sound"
+		},
+		{
+			"code": "9-e_9",
+			"meaning": "consonant that represents a glottal stop"
+		},
+		{
+			"code": "s-ii",
+			"meaning": "vowel that makes a long 'i' sound, as in 'green'"
+		},
+		{
+			"code": "s-aa",
+			"meaning": "vowel that makes a long 'a' sound, as in 'ball'"
+		},
+		{
+			"code": "s-uu",
+			"meaning": "vowel that makes a long 'u' sound, as in 'you'"
+		},
+		{
+			"code": "s-i",
+			"meaning": "vowel that makes a short 'i' sound, as in 'pin'"
+		},
+		{
+			"code": "s-a",
+			"meaning": "vowel that makes a short 'a' sound, as in 'pan'"
+		},
+		{
+			"code": "s-u",
+			"meaning": "vowel that makes a short 'u' sound, as in 'gun'"
+		},
+		{
+			"code": "s-e",
+			"meaning": "vowel that makes a short 'e' sound, as in 'gem'"
+		},
+		{
+			"code": "s-oo",
+			"meaning": "vowel that makes the 'oo' sound, as in 'crook'"
+		},
+		{
+			"code": "s-o",
+			"meaning": "vowel that makes a long 'o' sound, as in 'bone'"
+		},
+		{
+			"code": "s-ie",
+			"meaning": "vowel that makes the 'i' sound, as in 'pine'"
+		},
+		{
+			"code": "s-ei",
+			"meaning": "vowel that makes the 'ei' (or 'igh') sound, as in 'light'"
+		},
+		{
+			"code": "s-ai",
+			"meaning": "vowel that makes the 'ai' sound, as in 'pain'"
+		},
+		{
+			"code": "s-ou",
+			"meaning": "vowel that makes the 'ou' sound, as in 'couch'"
+		},
+		{
+			"code": "s-oi",
+			"meaning": "vowel that makes the 'oi' sound, as in 'coin'"
+		},
+		{
+			"code": "f-~_r-aa_9",
+			"meaning": "vowel that represents the insignificant short vowel"
+		}
+	]
+}

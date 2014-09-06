@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>Pavach Trainer from JohnFMarion.com</title>
+	<link rel="stylesheet" href="css/960.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="javascript/jquery-2.1.1.min.js"></script>
+	<script src="javascript/debug.js"></script>
+	<script src="javascript/menus.js"></script>
+	<script src="javascript/lesson_management.js"></script>
+	<script src="javascript/training_cycle.js"></script>
+	<script src="javascript/get_functions.js"></script>
+	<script>
+		var DEBUG = true;
+		
+		// file constants
+		var AUDIO_PATH = "audio/words/";
+		var SCRIPT_PATH = "images/alphabet/Combos/";
+	
+		// language constants
+		var ALPHABET;
+		
+		// lessons
+		var active_lessons = [ true, false ];
+		var WORD_LIST = [];
+		var SCORE = 0;
+		
+		// question types
+		var WRITING = false; // meaning to script 
+		var SPEAKING = false; // meaning to sound
+		var WRITTEN_TRANSLATION = true; // script to meaning (always true)
+		var READING = false; // script to sound
+		var SPOKEN_TRANSLATION = false; // sound to meaning
+		var TRANSCRIPTION = false; // sound to script
+		
+		var QT = [];
+		
+		$(document).ready(function () {
+			var json;
+			var jqxhr = $.getJSON("json/alphabet.json", function(data) {
+				ALPHABET = data;
+				select_lesson_menu();
+			});
+			jqxhr.fail(function() {
+				document.getElementById("test").innerHTML += "JSON Fail!!!";
+			});
+		});
+		function go() {
+			document.getElementById("test").innerHTML += "<h2><i>" + getTransliteration("p-aa_v-aa_dzh") + "</i></h2>";
+		}
+	</script>
+	
+	
+</head>
+
+<body>
+
+	<div id="content" class="container_12">
+
+		<div id="banner" class="grid_12">
+			<img id="banner-icon" src="images/icon_pavach.png"/>
+			<h1>Pavach Trainer from JohnFMarion.com</h1>
+		</div>
+		
+		<div id="main-box" class="grid_12">
+		
+			<div id="left-column" class="grid_10">
+				<div id="display">
+					<h2 id="d-question"></h2>
+					<h2 id="d-script"></h2>
+					<h2 id="d-sound"></h2>
+					<h2 id="d-transliteration"></h2>
+					<h2 id="d-meaning"></h2>
+					<form id="d-form" action=""></form>
+					<div id="d-buttons"></div>
+				</div>
+				<!--temp-->
+				<div id="temp">
+					<h1 id="temp-title"></h1>
+					<p id="temp-desc"></p>
+					<div id="temp-menu"></div>
+				</div>
+				<div id="debug"></div>
+			</div>
+			
+			<div id="right-column" class="grid_2">
+				<p><span id="progress-label"></span><span id="amount-complete"></span>/<span id="total"></span></p>
+				<p>Correct: <span id="amount-correct"></span></p>
+				<p id="score"></p>
+				<p>You missed:</p>
+				<ul id="study-guide">
+					
+				</ul>
+			</div>
+			
+			<div class="clearfix">
+			</div>
+			
+			<div id="test">
+			</div>	
+		
+		</div>
+	
+		
+	</div>
+
+</body>
+
+</html>
